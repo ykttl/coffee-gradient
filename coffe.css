@@ -1,0 +1,93 @@
+
+
+.container {
+    display: flex;
+}
+
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.box-coffee {
+    border: 3px solid black;
+}
+
+.box-beer {
+    border: 3px solid green;
+}
+
+
+.slider {
+    margin-left: 100px;
+}
+
+
+.magcup {
+    width: 400px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.liquid {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 15px #4ec4d3;
+    border-top: none;
+      
+    
+}
+
+#coffee {
+    /*background: linear-gradient(0deg, #4e2210 100%, #dbba87 0%);*/
+	/*border-top: #dbba87 1px solid;*/
+}
+
+#beer {
+
+    background: linear-gradient(0deg, #ff9c00 100%, #ffffcc 0%);
+   border-top: #ffffcc 1px solid;
+}
+
+#bubble{
+	position: absolute;
+	width:200px;
+	height: 60px;
+	background: #ffffcc;
+	border-radius: 7px;
+	margin-left: 15px;
+	
+}
+
+#coffee-1 {
+	width:200px;
+	/*height: 60px;*/
+	
+	position: absolute;
+    bottom: 0px;
+    top:;
+	background: black;
+	margin: 15px;
+}
+
+.cup-handle {
+    display: inline-block;
+    width: 30px;
+    height: 80px;
+    border: solid 18px #4ec4d3;
+    margin-top: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#coffee-name {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
